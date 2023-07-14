@@ -37,3 +37,63 @@ const amy = {
 const prices = [34, 5, 2]
 const shippingCost = 50
 let utenteCheEffettuaLAcquisto = amy //cambia il valore qui per provare se il tuo algoritmo funziona!
+
+
+// Calcolo del costo totale del carrello
+
+
+let totaleCarrello = 0;
+for (let i = 0; i < prices.length; i++) {
+  
+  totaleCarrello += prices
+  }
+
+if (utenteCheEffettuaLAcquisto.isAmbassador) {
+  totaleCarrello = (prices * 30)/100
+}
+
+else (totaleCarrello < 100) 
+  totaleCarrello += shippingCost;
+
+
+console.log(`Il costo totale del carrello è ${totaleCarrello}`);
+
+
+
+const allUsers = []
+allUsers.push(marco, paul, amy)
+console.log(allUsers)
+for (let i = 0; i < allUsers.length; i++) {
+  const utente = allUsers[i]
+  let stringaBase = `${utente.name} ${utente.lastName} `;
+  if (!utente.isAmbassador) {
+    stringaBase += "NON "
+  }
+  stringaBase += "e' un ambassador"
+  console.log(stringaBase)
+}
+
+let soloAmbassador = []
+for (let i = 0; i < allUsers.length; i++) {
+    const utente = allUsers[i];
+    if(utente.isAmbassador) {
+        soloAmbassador.push(utente)
+    }
+}
+console.log(soloAmbassador);
+
+
+
+
+
+
+
+const tuttiFrutti = 0
+const frutto = tuttiFrutti[1]
+
+for (let i = 0; i < tuttiFrutti.length;i++){
+  switch (frutto) {
+    case "mela":
+    console.log(mela);
+  }
+}
